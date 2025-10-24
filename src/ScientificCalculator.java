@@ -1,6 +1,6 @@
 public class ScientificCalculator extends AdvancedCalculator {
 
-    public String binaryChanges() {
+    public String changesBinary() {
         int sum = result;
         String a = "";
         while (sum > 0) {
@@ -14,6 +14,9 @@ public class ScientificCalculator extends AdvancedCalculator {
         }
         return a;
     }
+
+    public void displayBinary() {
+        System.out.println(changesBinary());
 
 
 
