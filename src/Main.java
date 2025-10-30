@@ -8,6 +8,9 @@ public class Main {
         calc_add.displayResult("+");
 
 
+
+
+
         AdvancedCalculator calc_mul = new AdvancedCalculator();
         calc_mul.setNumbers(10,2);
         calc_mul.multiply();
@@ -15,5 +18,20 @@ public class Main {
 
         AdvancedCalculator_2 calc_C = new AdvancedCalculator_2();
         calc_C.C();
+        calc_mul.displayResult("*");
+
+
+
+        ScientificCalculator calc_bi = new ScientificCalculator();
+        calc_bi.result = calc_add.result;
+        calc_bi.displayBinary();
+
+
+        calc_bi.result = calc_mul.result;
+        calc_bi.displayBinary();
+
+
+
+
     }
 }
