@@ -9,6 +9,7 @@ public class Calculator {
         this.num1 = num1;
         this.num2 = num2;
     }
+
     public int add()
     {
         result = num1 +num2;
