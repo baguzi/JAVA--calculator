@@ -12,5 +12,8 @@ public class Main {
         calc_mul.setNumbers(10,2);
         calc_mul.multiply();
         calc_mul.displayResult("+");
+
+        AdvancedCalculator_2 calc_C = new AdvancedCalculator_2();
+        calc_C.C();
     }
 }
