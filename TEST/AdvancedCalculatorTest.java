@@ -9,7 +9,7 @@ class AdvancedCalculatorTest {
     @BeforeEach
     void setUp() {
         advancedCalc = new AdvancedCalculator();
-        advancedCalc.setNumbers(9,3);
+        advancedCalc.setNumbers(9, 3);
     }
 
     @Test
